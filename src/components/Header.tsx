@@ -14,16 +14,16 @@ const Header = () => {
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#features" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="#features" className="story-link text-muted-foreground hover:text-primary transition-colors">
             Features
           </a>
-          <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">
-            About
+          <a href="#testimonials" className="story-link text-muted-foreground hover:text-primary transition-colors">
+            Testimonials
           </a>
-          <a href="#resources" className="text-muted-foreground hover:text-primary transition-colors">
-            Resources
+          <a href="#implementation" className="story-link text-muted-foreground hover:text-primary transition-colors">
+            Implementation
           </a>
-          <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="#contact" className="story-link text-muted-foreground hover:text-primary transition-colors">
             Contact
           </a>
         </nav>
@@ -46,16 +46,16 @@ const Header = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-card border-t border-border">
           <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            <a href="#features" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="#features" className="story-link text-muted-foreground hover:text-primary transition-colors">
               Features
             </a>
-            <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">
-              About
+            <a href="#testimonials" className="story-link text-muted-foreground hover:text-primary transition-colors">
+              Testimonials
             </a>
-            <a href="#resources" className="text-muted-foreground hover:text-primary transition-colors">
-              Resources
+            <a href="#implementation" className="story-link text-muted-foreground hover:text-primary transition-colors">
+              Implementation
             </a>
-            <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="#contact" className="story-link text-muted-foreground hover:text-primary transition-colors">
               Contact
             </a>
             <div className="flex flex-col space-y-2 pt-4">
